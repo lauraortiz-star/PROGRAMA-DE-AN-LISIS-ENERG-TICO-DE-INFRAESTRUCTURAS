@@ -124,7 +124,7 @@ while True:
                 consumos_agrupados = list(consumo_por_area.values())
                 
                 separacion = [0.05] * len(areas_unicas) 
-                plt.pie(consumos_agrupados, labels=areas_unicas, autopct='%1.1f%%', startangle=140, explode=separacion, shadow=True)
+                plt.pie(consumos_agrupados, labels=areas_unicas, autopct='%1.1f%%', startangle=140, explode=separacion)
                 plt.title('Distribución del Consumo por Área', fontweight='bold')
                 
 

@@ -4,7 +4,7 @@ import numpy as np
 def cargar_datos(nombre_archivo):
     ids, areas, nombres, consumos, fps = [], [], [], [], []
     try:
-        with open(nombre_archivo, mode='r', encoding='utf-8') as archivo:
+        with open(nombre_archivo, mode='r', encoding='utf-8') as archivo: 
             lineas = archivo.readlines()
             for linea in lineas[1:]:
                 datos = linea.strip().split(',')

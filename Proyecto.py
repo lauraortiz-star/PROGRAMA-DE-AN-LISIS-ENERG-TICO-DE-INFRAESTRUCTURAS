@@ -102,7 +102,7 @@ while True:
                 print(f"Puntos obtenidos:     {puntos:.1f} / 100")
                 print(f"Calificación LEED:    {categoria_leed}")
                 if faltan > 0:
-                    print(f"Progreso a mejorar:   Faltan {faltan:.1f} puntos para salir de {siguiente}.\n")
+                    print(f"Progreso a mejorar:   Faltan {faltan:.1f} puntos para llegar a {siguiente}.\n")
                 
                 print("Generando gráficos de análisis... (Cierre la ventana del gráfico para continuar)")
                 
